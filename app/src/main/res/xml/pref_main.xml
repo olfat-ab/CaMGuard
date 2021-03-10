@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Protection">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="switch_protection"
+            android:summaryOff="Protection Service Stopped"
+            android:summaryOn="Protection Service Started"
+            android:title="Protection Status" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Camera Setting">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="switch_cameracapture"
+            android:title="Capture Camera" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="switch_enablecamera"
+            android:summaryOff="Camera is Enabled"
+            android:summaryOn="Camera is Disabled"
+            android:title="Disable Camera" />
+    </PreferenceCategory>
+</PreferenceScreen>
